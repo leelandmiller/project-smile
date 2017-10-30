@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.marginright-middle {
+	margin-right:0.5px;
+}
+
+.marginright-side {
+	margin-right:0px;	
+}
+
+.no-pad.col {
+	padding-left:0px;
+}
+
+.no-marg.row {
+	margin-bottom:0px;	
+}
+
+.officer-card {
+	margin-left:0;
+	padding-left:0;	
+}
+
+
+
+.officer-info {
+	overflow: scroll;	
+}
+
+.officer-info p {
+	margin-top: 5px;	
+	margin-right:20px;
+}
+
+.profile-pic {
+	width: 100%;
+	display: block;
+	
+	/*padding: 2%;
+	border-radius: 10px;*/
+}
+
+
+
+
+@media screen and (max-width:600px){
+	
+
+	.marginright-side {
+		margin-right:0.5px;	
+	}
+}

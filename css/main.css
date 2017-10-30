@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+main {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+/*defines how much of parallax bg is visible*/
+.parallax-container {
+	height: 520px;
+}
+
+
+/*pads project smile logo*/
+#project-smile-logo {
+	padding-left: 2%;
+	margin-top: -8px;
+	margin-bottom: 0px;
+}
+
+/*this pads the hamburger menu button on smaller displays*/
+.left-pad {
+	margin-left:10%;
+	padding-left:10%;
+}
+
+/*darkens images used for parallax bg's*/
+.parallax.img-dark {
+	
+	filter: brightness(65%);
+	-webkit-filter: brightness(65%);
+	-moz-filter: brightness(65%);
+	-o-filter: brightness(65%);
+	-ms-filter: brightness(65%);
+}
+
+
+.pad-top-2 {
+	padding-top: 2%;
+}
+
+/*styles "UC Merced" in the logo, for desktop*/
+#uc-merced-logo {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 80%;
+}
+
+/*#logo-wrapper wraps and styles the logo for desktop displays*/
+.nav-wrapper.blue.darken-4 #logo-wrapper {
+	position: absolute;
+	left: 2%;
+	top: -8%;
+}
+
+#mobile-demo .logo img {
+	width: auto;
+	display: block;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.side-nav a:hover {
+	background-color: #82b1ff;
+}
+
+.padded-divider {
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.card-block {
+	margin-top:20px;
+}
+
+#pre-dental-association {
+	margin:0px;
+	padding:0px;
+}
+
+#project-smile-section-2 {
+	margin-bottom:10px;
+}
+
+.card-image .img-dark {
+	
+	filter: brightness(85%);
+	-webkit-filter: brightness(85%);
+	-moz-filter: brightness(85%);
+	-o-filter: brightness(85%);
+	-ms-filter: brightness(85%);
+}
+
+.no-marg-no-pad {
+	margin:0px;
+	padding:0px;	
+}
+
+.no-marg-bot {
+	margin-bottom:0px;
+}
+
+.no-marg-top {
+	margin-top:0px;
+}
+.justify-text {
+	text-align: justify;
+}
+
+.pad-top-10 {
+	padding-top: 10%;
+}
+
+.marg-top-4 { padding-top:4%; }
+
+#where-we-are {
+	padding-top: 12%;	
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-20 { font-size: 20px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.fs-18 { font-size: 18px; }
+.fs-20 { font-size: 20px; }
+.fs-24 { font-size: 24px; }
+.fs-48 { font-size: 48px; }
+
+.title-bg {
+	width: 100%;
+	background-color: rgba(49,49,49,0.40);	
+}
+
+.logo-img {
+	display:block;
+	padding-left:20px;
+	margin:0 auto;
+	max-width:60%;	
+}
+
+
+.footer-ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:left;
+	
+}
+
+.footer-ul li {
+	margin:0;
+	padding:0;	
+}.col.l6.s12.footer-ul {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+
+/**********
+FORM THEME
+***********/
+
+/*input-field label color*/
+.input-field label {
+	color: #000;	
+}
+
+
+[type="radio"]:checked+label:after{border-radius:50%;border:2px solid #1976d2;background-color:#1976d2;z-index:0;-webkit-transform:scale(1.02);transform:scale(1.02)}
+
+
+/*input-field label color when focused*/
+.input-field input[type=text]:focus + label {
+	color: #1976d2;
+}
+
+/*input-field bottom line color when focused*/
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #1976d2;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/*input-field email label color when focused*/
+.input-field input[type=email]:focus + label {
+	color: #1976d2;
+}
+
+/*input-field email bottom line color when focused*/
+.input-field input[type=email]:focus {
+	border-bottom: 1px solid #1976d2;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/*input-field textarea label color*/
+.input-field textarea.materialize-textarea:focus + label {
+	color: #1976d2;
+}
+
+/*input-field textarea label color when focused*/
+.input-field textarea.materialize-textarea:focus {
+	border-bottom: 1px solid #1976d2;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/*input-field text valid color*/
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/*input-field email valid color*/
+.input-field input[type=email].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+
+/*icon prefix active color*/
+.input-field .prefix.active {
+	color:#1976d2;	
+}
+

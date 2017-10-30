@@ -1,0 +1,5 @@
+<!--Scalable Vector Graphic-->
+
+<svg fill="#ff0000" height="150" width="20">
+  <path d="M0 0 L0 100 L10 100 L10 0" />
+</svg>
